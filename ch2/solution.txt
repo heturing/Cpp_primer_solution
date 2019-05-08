@@ -1,0 +1,101 @@
+Ex2.9
+a) ">>" is an operator to assign left side value to the right side. But the right side variable is not initialized. And the assignment job is to clear the current value and give a new one. Because the current value of input_value is undefined, so it is an error.
+
+b) narrowing conversion
+
+c) wage's value is undefined, it is impossible to initialize salary with undefined.
+
+d) right.
+
+Ex2.11
+a) definition
+b) definition
+c) declaration
+
+Ex2.12
+a) invalid
+b) valid
+C) invalid
+D) valid
+E) valid
+
+Ex2.13
+J = 100
+
+Ex2.14
+100 45
+
+Ex2.15
+A) valid
+B) references cannot be bound to a literal.
+c) valid
+D) A reference must be initialized.
+
+Ex2.16
+A) valid d = 3.14159
+B) invalid r2 and r1 should have same type.
+C) valid i = d
+D) valid i = d
+
+Ex2.17
+10 10
+
+Ex2.19
+Pointer is an object.
+Point can be assigned.
+
+Reference is not an object.
+Reference can only be initialized.
+
+Ex2.20
+Calculate 42 * 42.
+
+Ex2.21
+A) illegal. Cannot initialize a double pointer with the address of an integer variable.
+B) illegal. Cannot initialize a pointer with an integer.
+C) pointer p points to variable i.
+
+Ex2.22
+A) if p is not a null pointer, do ...
+B) if p points to a nonzero integer, do ...
+
+Ex2.23
+Cannot
+
+Ex2.24
+Pointer of type void* can hold any type's pointer.
+
+Ex2.25
+A) ip is a pointer to a int object. R refers to pointer ip
+B) i is an integer, ip is null pointer
+C) ip is an integer pointer, ip2 is an integer.
+
+Ex2.26
+A) illegal. A constant must be initialized.
+B) legal.
+C) legal.
+D) illegal. Cannot change the value of a constant
+
+Ex2.27
+A) cannot make a reference of int literal.
+B) legal
+C) legal
+D) legal
+E) legal
+F) initialize
+G) legal
+
+Ex2.28
+A) a const pointer must be initialized.
+B) a const pointer must be initialized.
+C) legal
+D) a const pointer must be initialized.
+E) legal
+
+Ex2.29
+A) legal
+B) legal
+C) illegal
+D) legal
+E) legal
+F) cannot assign a constant.
