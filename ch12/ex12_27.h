@@ -10,6 +10,7 @@ using namespace std;
 class QueryResult;
 
 class TextQuery{
+friend class QueryResult;
 public:
 	using line_no = vector<string>::size_type;
 	TextQuery(ifstream &);

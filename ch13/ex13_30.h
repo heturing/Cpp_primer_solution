@@ -20,6 +20,9 @@ public:
 	~HasPtr(){
 		delete ps;
 	}
+	bool operator<(const HasPtr &b){
+		return *(this->ps) < *(b.ps);
+	}
 private:
 	int i;
 	string *ps;

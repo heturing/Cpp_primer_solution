@@ -1,11 +1,3 @@
-#include <iostream>
+#include "ex2_40.h"
 
-struct Sales_data{
-	std::string bookNumber;
-	unsigned units_solds = 0;
-	double revenue = 0.0;
-};
 
-int main(){
-	return 0;
-}

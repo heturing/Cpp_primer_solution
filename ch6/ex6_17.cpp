@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool check_capital(const string s){
+bool check_capital(const string &s){
 	for(auto c : s){
 		if(isupper(c)){
 			cout << "has Capital" << endl;

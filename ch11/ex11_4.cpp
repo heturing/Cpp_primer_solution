@@ -10,12 +10,12 @@ int main(){
 	set<char> sc = {',', '.'};
 	string word;
 	while(cin >> word){
-		if(s.find(word) == s.end()){
-			if(sc.find(word.back()) != sc.end()){
-				word.pop_back();
-			}
-			word.front() = tolower(word.front());
-			m[word]++;
+		word[0] = tolower(word[0]);
+		string punc = ".,";
+		auto pos = word.find_first_of(punc);
+		string newWord(word, 0, pos);
+		if(s.find(newWord) == s.end()){
+			m[newWord]++;
 		}
 	}
 

@@ -4,13 +4,17 @@ using namespace std;
 
 int main(){
 	string last = "", current = "";
+	bool rep = false;
 	while(cin >> current){
 		if(current == last){
 			cout << current << " repeat" << endl;
-			return 0;
+			rep = true;
+			break;
 		}
 		last = current;
 	}
-	cout << "no repetition" << endl;
+	if(!rep){
+		cout << "no repetition" << endl;
+	}
 	return 0;
 }

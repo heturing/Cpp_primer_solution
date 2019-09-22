@@ -3,29 +3,29 @@
 
 using namespace std;
 
-int add(const int i, const int j){
-	return i+j;
+int add(int i, int j){
+	return i + j;
 }
 
-int sub(const int i, const int j){
-	return i-j;
+int sub(int i, int j){
+	return i - j;
 }
 
-int mul(const int i, const int j){
-	return i*j;
+int mul(int i, int j){
+	return i * j;
 }
 
-int divide(const int i, const int j){
-	return i/j;
+int divi(int i, int j){
+	return i / j;
 }
 
 int main(){
-	typedef int (*F)(int, int);
-	vector<F> v = {add, sub, mul, divide};
-	int a = 2, b = 1;
-	for(auto c : v){
-    cout<< c(a,b) << endl;
+	using f = int (*)(int, int);
+	vector<f> funcs = {add, sub, mul, divi};
 
+	for(auto c : funcs){
+		cout << c(4, 2) << endl;;
 	}
+
 	return 0;
 }

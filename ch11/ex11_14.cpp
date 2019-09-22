@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-	map<string, pair<vector<string>, vector<pair<string, string>>>> m;
+	map<string, vector<pair<string, string>>> m;
     return 0;
 
 }

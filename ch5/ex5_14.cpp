@@ -19,7 +19,12 @@ int main(){
 		}
 		last = current;
 	}
-	cout << max << endl;
+	if(max != 1){
+		cout << max << endl;
+	}
+	else{
+		cout << "There are no duplicates" << endl;
+	}
 	return 0;
 }
 

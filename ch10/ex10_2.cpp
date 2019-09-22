@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
-#include <vector>
+#include <list>
 #include <algorithm>
 
 using namespace std;
 
 int main(){
 	string s = "", k = "hjq";
-	vector<string> v;
+	list<string> v;
 	while(cin >> s){
 		v.push_back(s);
 	}
