@@ -1,0 +1,12 @@
+A function template is a formula which we can generate type-specific versions of that function. It usually has the form:
+	template <template_parameter_list> return_type function_name(parameter_list){
+		body	
+	}
+In template_parameter_list, we can use keyword typename T or class T to represent that T is a unspecificed type. When we call a template function, we need to provide the type of template_peramater_list explicitly or implicitly, and the complier will initialize a type-specified function.
+
+
+
+A class template is a blueprint to generate class. It has the form:
+	template <temp_para_list> class class_name{
+		member
+	};
